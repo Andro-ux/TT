@@ -1,0 +1,5 @@
+{
+  "name": "Titanic Insights AI",
+  "description": "Natural language chat agent for analyzing the Titanic dataset with interactive visualizations.",
+  "requestFramePermissions": []
+}
