@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Titanic Insights AI 🚢
 
-# Run and deploy your AI Studio app
+A powerful data analysis agent for the Titanic dataset. Ask questions in natural language and get instant insights with interactive visualizations.
 
-This contains everything you need to run your app locally.
+## Features
+- **Natural Language Querying**: Ask questions like "What was the survival rate of first-class passengers?"
+- **Interactive Charts**: Automatically generates Bar, Pie, and Line charts based on data.
+- **Full-Stack Architecture**: Powered by an Express backend with a SQLite in-memory database.
+- **AI-Driven Analysis**: Uses Gemini to translate English into SQL queries and data summaries.
 
-View your app in AI Studio: https://ai.studio/apps/745d1281-36bb-4801-b1b8-54ab2bd98005
+## Getting Started
 
-## Run Locally
+### Prerequisites
+- Node.js (v18 or higher)
+- npm
 
-**Prerequisites:**  Node.js
+### Installation
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set your `GEMINI_API_KEY` in a `.env` file.
 
+### Running the App
+Start the development server:
+```bash
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Dataset
+The application uses a curated subset of the Titanic passenger list, including information on survival, class, age, sex, and more.
